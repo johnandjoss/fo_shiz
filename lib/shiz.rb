@@ -18,6 +18,6 @@ shiz_sentence.each() do |newword|
   newword.chr() == newword[0]
 end
 end
-shiz_sentence
+shiz_sentence.join(" ")
 end
 end
