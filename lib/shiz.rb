@@ -9,6 +9,15 @@ class String
       shiz_sentence.push(word.gsub(/S/, "Z"))
   end
 end
+shiz_sentence.each() do |newword|
+    if newword.chr() == "z"
+    newword[0] = "s"
+  elsif newword.chr() == "Z"
+    newword[0] = "S"
+  else
+  newword.chr() == newword[0]
+end
+end
 shiz_sentence
 end
 end
